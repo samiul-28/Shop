@@ -1,0 +1,53 @@
+  [1m[35m (84.2ms)[0m  [1m[35mCREATE DATABASE "bootly_development" ENCODING = 'unicode'[0m
+  [1m[35m (2.0ms)[0m  [1m[35mCREATE DATABASE "bootly_test" ENCODING = 'unicode'[0m
+  [1m[35m (9.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4035035376792838740)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (18.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (42.0ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "environment"]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(4035035376792838740)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2024-05-07 20:59:40 +0600
+  [1m[36mActiveRecord::SchemaMigration Load (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 186)
+  Rendered layout layouts/application.html.erb (Duration: 18820.4ms | Allocations: 144616)
+Completed 200 OK in 18986ms (Views: 18847.9ms | ActiveRecord: 0.0ms | Allocations: 152307)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-07 21:00:34 +0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 98)
+  Rendered layout layouts/application.html.erb (Duration: 272.0ms | Allocations: 25161)
+Completed 200 OK in 281ms (Views: 277.1ms | ActiveRecord: 0.0ms | Allocations: 26069)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4035035376792838740)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.3ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "environment"]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(4035035376792838740)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2024-05-07 21:06:29 +0600
+  [1m[36mActiveRecord::SchemaMigration Load (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CommonVegetablesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering common_vegetables/index.html.erb within layouts/application
+  Rendered common_vegetables/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 186)
+  Rendered layout layouts/application.html.erb (Duration: 336.6ms | Allocations: 49850)
+Completed 200 OK in 380ms (Views: 352.4ms | ActiveRecord: 0.0ms | Allocations: 53942)
+
+
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE DATABASE "bootly_development" ENCODING = 'unicode'[0m
+  [1m[35m (1.5ms)[0m  [1m[35mCREATE DATABASE "bootly_test" ENCODING = 'unicode'[0m
+Started GET "/" for 127.0.0.1 at 2024-05-07 21:09:24 +0600
+  [1m[36mActiveRecord::SchemaMigration Load (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CommonVegetablesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering common_vegetables/index.html.erb within layouts/application
+  Rendered common_vegetables/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 186)
+  Rendered layout layouts/application.html.erb (Duration: 322.7ms | Allocations: 49898)
+Completed 200 OK in 363ms (Views: 337.7ms | ActiveRecord: 0.0ms | Allocations: 54053)
+
+
