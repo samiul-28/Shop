@@ -1,0 +1,2 @@
+class CommonVegetable < ApplicationRecord
+end

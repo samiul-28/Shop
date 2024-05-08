@@ -7,3 +7,6 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+commonvegetable = CommonVegetable.create(name: "Potato" , description: "A potato is a vegetable, the Solanum tuberosum.")
+commonvegetable = CommonVegetable.create(name: "Pumpkin" , description: "Pumpkin is an incredibly healthy vegetable that's rich in fiber, vitamins, and minerals.")
